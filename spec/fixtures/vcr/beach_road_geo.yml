@@ -1,0 +1,512 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://maps.googleapis.com/maps/api/geocode/json?language=en&latlng=1.3025993,103.8638169&sensor=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Wed, 30 Oct 2013 05:15:37 GMT
+      Expires:
+      - Thu, 31 Oct 2013 05:15:37 GMT
+      Cache-Control:
+      - public, max-age=86400
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alternate-Protocol:
+      - 80:quic
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: US-ASCII
+      string: ! "{\n   \"results\" : [\n      {\n         \"address_components\" :
+        [\n            {\n               \"long_name\" : \"15-505\",\n               \"short_name\"
+        : \"15-505\",\n               \"types\" : [ \"street_number\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Beach Road\",\n               \"short_name\"
+        : \"Beach Rd\",\n               \"types\" : [ \"route\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Singapore\",\n               \"short_name\"
+        : \"SG\",\n               \"types\" : [ \"country\", \"political\" ]\n            }\n
+        \        ],\n         \"formatted_address\" : \"15-505 Beach Road, Singapore\",\n
+        \        \"geometry\" : {\n            \"bounds\" : {\n               \"northeast\"
+        : {\n                  \"lat\" : 1.3028696,\n                  \"lng\" : 103.8642793\n
+        \              },\n               \"southwest\" : {\n                  \"lat\"
+        : 1.3019542,\n                  \"lng\" : 103.8628303\n               }\n
+        \           },\n            \"location\" : {\n               \"lat\" : 1.3025993,\n
+        \              \"lng\" : 103.8638169\n            },\n            \"location_type\"
+        : \"RANGE_INTERPOLATED\",\n            \"viewport\" : {\n               \"northeast\"
+        : {\n                  \"lat\" : 1.303760880291502,\n                  \"lng\"
+        : 103.8649037802915\n               },\n               \"southwest\" : {\n
+        \                 \"lat\" : 1.301062919708498,\n                  \"lng\"
+        : 103.8622058197085\n               }\n            }\n         },\n         \"types\"
+        : [ \"street_address\" ]\n      },\n      {\n         \"address_components\"
+        : [\n            {\n               \"long_name\" : \"199583\",\n               \"short_name\"
+        : \"199583\",\n               \"types\" : [ \"postal_code\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Singapore\",\n               \"short_name\"
+        : \"Singapore\",\n               \"types\" : [ \"locality\", \"political\"
+        ]\n            },\n            {\n               \"long_name\" : \"Singapore\",\n
+        \              \"short_name\" : \"SG\",\n               \"types\" : [ \"country\",
+        \"political\" ]\n            }\n         ],\n         \"formatted_address\"
+        : \"Singapore 199583\",\n         \"geometry\" : {\n            \"location\"
+        : {\n               \"lat\" : 1.3028979,\n               \"lng\" : 103.863909\n
+        \           },\n            \"location_type\" : \"APPROXIMATE\",\n            \"viewport\"
+        : {\n               \"northeast\" : {\n                  \"lat\" : 1.304246880291502,\n
+        \                 \"lng\" : 103.8652579802915\n               },\n               \"southwest\"
+        : {\n                  \"lat\" : 1.301548919708498,\n                  \"lng\"
+        : 103.8625600197085\n               }\n            }\n         },\n         \"types\"
+        : [ \"postal_code\" ]\n      },\n      {\n         \"address_components\"
+        : [\n            {\n               \"long_name\" : \"199598\",\n               \"short_name\"
+        : \"199598\",\n               \"types\" : [ \"postal_code\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Singapore\",\n               \"short_name\"
+        : \"Singapore\",\n               \"types\" : [ \"locality\", \"political\"
+        ]\n            },\n            {\n               \"long_name\" : \"Singapore\",\n
+        \              \"short_name\" : \"SG\",\n               \"types\" : [ \"country\",
+        \"political\" ]\n            }\n         ],\n         \"formatted_address\"
+        : \"Singapore 199598\",\n         \"geometry\" : {\n            \"location\"
+        : {\n               \"lat\" : 1.302538,\n               \"lng\" : 103.864219\n
+        \           },\n            \"location_type\" : \"APPROXIMATE\",\n            \"viewport\"
+        : {\n               \"northeast\" : {\n                  \"lat\" : 1.303886980291502,\n
+        \                 \"lng\" : 103.8655679802915\n               },\n               \"southwest\"
+        : {\n                  \"lat\" : 1.301189019708498,\n                  \"lng\"
+        : 103.8628700197085\n               }\n            }\n         },\n         \"types\"
+        : [ \"postal_code\" ]\n      },\n      {\n         \"address_components\"
+        : [\n            {\n               \"long_name\" : \"199589\",\n               \"short_name\"
+        : \"199589\",\n               \"types\" : [ \"postal_code\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Singapore\",\n               \"short_name\"
+        : \"Singapore\",\n               \"types\" : [ \"locality\", \"political\"
+        ]\n            },\n            {\n               \"long_name\" : \"Singapore\",\n
+        \              \"short_name\" : \"SG\",\n               \"types\" : [ \"country\",
+        \"political\" ]\n            }\n         ],\n         \"formatted_address\"
+        : \"Singapore 199589\",\n         \"geometry\" : {\n            \"location\"
+        : {\n               \"lat\" : 1.302128,\n               \"lng\" : 103.864082\n
+        \           },\n            \"location_type\" : \"APPROXIMATE\",\n            \"viewport\"
+        : {\n               \"northeast\" : {\n                  \"lat\" : 1.303476980291502,\n
+        \                 \"lng\" : 103.8654309802915\n               },\n               \"southwest\"
+        : {\n                  \"lat\" : 1.300779019708498,\n                  \"lng\"
+        : 103.8627330197085\n               }\n            }\n         },\n         \"types\"
+        : [ \"postal_code\" ]\n      },\n      {\n         \"address_components\"
+        : [\n            {\n               \"long_name\" : \"199588\",\n               \"short_name\"
+        : \"199588\",\n               \"types\" : [ \"postal_code\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Singapore\",\n               \"short_name\"
+        : \"Singapore\",\n               \"types\" : [ \"locality\", \"political\"
+        ]\n            },\n            {\n               \"long_name\" : \"Singapore\",\n
+        \              \"short_name\" : \"SG\",\n               \"types\" : [ \"country\",
+        \"political\" ]\n            }\n         ],\n         \"formatted_address\"
+        : \"Singapore 199588\",\n         \"geometry\" : {\n            \"location\"
+        : {\n               \"lat\" : 1.302908,\n               \"lng\" : 103.864945\n
+        \           },\n            \"location_type\" : \"APPROXIMATE\",\n            \"viewport\"
+        : {\n               \"northeast\" : {\n                  \"lat\" : 1.304256980291502,\n
+        \                 \"lng\" : 103.8662939802915\n               },\n               \"southwest\"
+        : {\n                  \"lat\" : 1.301559019708498,\n                  \"lng\"
+        : 103.8635960197085\n               }\n            }\n         },\n         \"types\"
+        : [ \"postal_code\" ]\n      },\n      {\n         \"address_components\"
+        : [\n            {\n               \"long_name\" : \"Kallang\",\n               \"short_name\"
+        : \"Kallang\",\n               \"types\" : [ \"neighborhood\", \"political\"
+        ]\n            },\n            {\n               \"long_name\" : \"Singapore\",\n
+        \              \"short_name\" : \"SG\",\n               \"types\" : [ \"country\",
+        \"political\" ]\n            }\n         ],\n         \"formatted_address\"
+        : \"Kallang, Singapore\",\n         \"geometry\" : {\n            \"bounds\"
+        : {\n               \"northeast\" : {\n                  \"lat\" : 1.3304539,\n
+        \                 \"lng\" : 103.8855219\n               },\n               \"southwest\"
+        : {\n                  \"lat\" : 1.294024,\n                  \"lng\" : 103.8442939\n
+        \              }\n            },\n            \"location\" : {\n               \"lat\"
+        : 1.3100334,\n               \"lng\" : 103.8651056\n            },\n            \"location_type\"
+        : \"APPROXIMATE\",\n            \"viewport\" : {\n               \"northeast\"
+        : {\n                  \"lat\" : 1.3304539,\n                  \"lng\" : 103.8855219\n
+        \              },\n               \"southwest\" : {\n                  \"lat\"
+        : 1.294024,\n                  \"lng\" : 103.8442939\n               }\n            }\n
+        \        },\n         \"types\" : [ \"neighborhood\", \"political\" ]\n      },\n
+        \     {\n         \"address_components\" : [\n            {\n               \"long_name\"
+        : \"Singapore\",\n               \"short_name\" : \"Singapore\",\n               \"types\"
+        : [ \"locality\", \"political\" ]\n            },\n            {\n               \"long_name\"
+        : \"Singapore\",\n               \"short_name\" : \"SG\",\n               \"types\"
+        : [ \"country\", \"political\" ]\n            }\n         ],\n         \"formatted_address\"
+        : \"Singapore\",\n         \"geometry\" : {\n            \"bounds\" : {\n
+        \              \"northeast\" : {\n                  \"lat\" : 1.470624,\n
+        \                 \"lng\" : 104.0414964\n               },\n               \"southwest\"
+        : {\n                  \"lat\" : 1.2205597,\n                  \"lng\" : 103.6098182\n
+        \              }\n            },\n            \"location\" : {\n               \"lat\"
+        : 1.2800945,\n               \"lng\" : 103.8509491\n            },\n            \"location_type\"
+        : \"APPROXIMATE\",\n            \"viewport\" : {\n               \"northeast\"
+        : {\n                  \"lat\" : 1.470624,\n                  \"lng\" : 104.0414964\n
+        \              },\n               \"southwest\" : {\n                  \"lat\"
+        : 1.2205597,\n                  \"lng\" : 103.6098182\n               }\n
+        \           }\n         },\n         \"types\" : [ \"locality\", \"political\"
+        ]\n      },\n      {\n         \"address_components\" : [\n            {\n
+        \              \"long_name\" : \"Singapore\",\n               \"short_name\"
+        : \"SG\",\n               \"types\" : [ \"country\", \"political\" ]\n            }\n
+        \        ],\n         \"formatted_address\" : \"Singapore\",\n         \"geometry\"
+        : {\n            \"bounds\" : {\n               \"northeast\" : {\n                  \"lat\"
+        : 1.4707698,\n                  \"lng\" : 104.0855574\n               },\n
+        \              \"southwest\" : {\n                  \"lat\" : 1.166398,\n
+        \                 \"lng\" : 103.6055755\n               }\n            },\n
+        \           \"location\" : {\n               \"lat\" : 1.352083,\n               \"lng\"
+        : 103.819836\n            },\n            \"location_type\" : \"APPROXIMATE\",\n
+        \           \"viewport\" : {\n               \"northeast\" : {\n                  \"lat\"
+        : 1.4707698,\n                  \"lng\" : 104.0855574\n               },\n
+        \              \"southwest\" : {\n                  \"lat\" : 1.166398,\n
+        \                 \"lng\" : 103.6055755\n               }\n            }\n
+        \        },\n         \"types\" : [ \"country\", \"political\" ]\n      }\n
+        \  ],\n   \"status\" : \"OK\"\n}\n"
+    http_version: 
+  recorded_at: Wed, 30 Oct 2013 05:15:30 GMT
+- request:
+    method: get
+    uri: http://maps.googleapis.com/maps/api/geocode/json?language=en&latlng=1.302128,103.8638169&sensor=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Wed, 30 Oct 2013 05:15:55 GMT
+      Expires:
+      - Thu, 31 Oct 2013 05:15:55 GMT
+      Cache-Control:
+      - public, max-age=86400
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alternate-Protocol:
+      - 80:quic
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: US-ASCII
+      string: ! "{\n   \"results\" : [\n      {\n         \"address_components\" :
+        [\n            {\n               \"long_name\" : \"6001\",\n               \"short_name\"
+        : \"6001\",\n               \"types\" : [ \"street_number\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Beach Road\",\n               \"short_name\"
+        : \"Beach Rd\",\n               \"types\" : [ \"route\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Singapore\",\n               \"short_name\"
+        : \"SG\",\n               \"types\" : [ \"country\", \"political\" ]\n            }\n
+        \        ],\n         \"formatted_address\" : \"6001 Beach Road, Singapore\",\n
+        \        \"geometry\" : {\n            \"bounds\" : {\n               \"northeast\"
+        : {\n                  \"lat\" : 1.302746,\n                  \"lng\" : 103.864306\n
+        \              },\n               \"southwest\" : {\n                  \"lat\"
+        : 1.3019105,\n                  \"lng\" : 103.863013\n               }\n            },\n
+        \           \"location\" : {\n               \"lat\" : 1.3023255,\n               \"lng\"
+        : 103.8636892\n            },\n            \"location_type\" : \"RANGE_INTERPOLATED\",\n
+        \           \"viewport\" : {\n               \"northeast\" : {\n                  \"lat\"
+        : 1.303677230291502,\n                  \"lng\" : 103.8650084802915\n               },\n
+        \              \"southwest\" : {\n                  \"lat\" : 1.300979269708498,\n
+        \                 \"lng\" : 103.8623105197085\n               }\n            }\n
+        \        },\n         \"types\" : [ \"street_address\" ]\n      },\n      {\n
+        \        \"address_components\" : [\n            {\n               \"long_name\"
+        : \"199589\",\n               \"short_name\" : \"199589\",\n               \"types\"
+        : [ \"postal_code\" ]\n            },\n            {\n               \"long_name\"
+        : \"Singapore\",\n               \"short_name\" : \"Singapore\",\n               \"types\"
+        : [ \"locality\", \"political\" ]\n            },\n            {\n               \"long_name\"
+        : \"Singapore\",\n               \"short_name\" : \"SG\",\n               \"types\"
+        : [ \"country\", \"political\" ]\n            }\n         ],\n         \"formatted_address\"
+        : \"Singapore 199589\",\n         \"geometry\" : {\n            \"location\"
+        : {\n               \"lat\" : 1.302128,\n               \"lng\" : 103.864082\n
+        \           },\n            \"location_type\" : \"APPROXIMATE\",\n            \"viewport\"
+        : {\n               \"northeast\" : {\n                  \"lat\" : 1.303476980291502,\n
+        \                 \"lng\" : 103.8654309802915\n               },\n               \"southwest\"
+        : {\n                  \"lat\" : 1.300779019708498,\n                  \"lng\"
+        : 103.8627330197085\n               }\n            }\n         },\n         \"types\"
+        : [ \"postal_code\" ]\n      },\n      {\n         \"address_components\"
+        : [\n            {\n               \"long_name\" : \"199598\",\n               \"short_name\"
+        : \"199598\",\n               \"types\" : [ \"postal_code\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Singapore\",\n               \"short_name\"
+        : \"Singapore\",\n               \"types\" : [ \"locality\", \"political\"
+        ]\n            },\n            {\n               \"long_name\" : \"Singapore\",\n
+        \              \"short_name\" : \"SG\",\n               \"types\" : [ \"country\",
+        \"political\" ]\n            }\n         ],\n         \"formatted_address\"
+        : \"Singapore 199598\",\n         \"geometry\" : {\n            \"location\"
+        : {\n               \"lat\" : 1.302538,\n               \"lng\" : 103.864219\n
+        \           },\n            \"location_type\" : \"APPROXIMATE\",\n            \"viewport\"
+        : {\n               \"northeast\" : {\n                  \"lat\" : 1.303886980291502,\n
+        \                 \"lng\" : 103.8655679802915\n               },\n               \"southwest\"
+        : {\n                  \"lat\" : 1.301189019708498,\n                  \"lng\"
+        : 103.8628700197085\n               }\n            }\n         },\n         \"types\"
+        : [ \"postal_code\" ]\n      },\n      {\n         \"address_components\"
+        : [\n            {\n               \"long_name\" : \"199583\",\n               \"short_name\"
+        : \"199583\",\n               \"types\" : [ \"postal_code\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Singapore\",\n               \"short_name\"
+        : \"Singapore\",\n               \"types\" : [ \"locality\", \"political\"
+        ]\n            },\n            {\n               \"long_name\" : \"Singapore\",\n
+        \              \"short_name\" : \"SG\",\n               \"types\" : [ \"country\",
+        \"political\" ]\n            }\n         ],\n         \"formatted_address\"
+        : \"Singapore 199583\",\n         \"geometry\" : {\n            \"location\"
+        : {\n               \"lat\" : 1.3028979,\n               \"lng\" : 103.863909\n
+        \           },\n            \"location_type\" : \"APPROXIMATE\",\n            \"viewport\"
+        : {\n               \"northeast\" : {\n                  \"lat\" : 1.304246880291502,\n
+        \                 \"lng\" : 103.8652579802915\n               },\n               \"southwest\"
+        : {\n                  \"lat\" : 1.301548919708498,\n                  \"lng\"
+        : 103.8625600197085\n               }\n            }\n         },\n         \"types\"
+        : [ \"postal_code\" ]\n      },\n      {\n         \"address_components\"
+        : [\n            {\n               \"long_name\" : \"199588\",\n               \"short_name\"
+        : \"199588\",\n               \"types\" : [ \"postal_code\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Singapore\",\n               \"short_name\"
+        : \"Singapore\",\n               \"types\" : [ \"locality\", \"political\"
+        ]\n            },\n            {\n               \"long_name\" : \"Singapore\",\n
+        \              \"short_name\" : \"SG\",\n               \"types\" : [ \"country\",
+        \"political\" ]\n            }\n         ],\n         \"formatted_address\"
+        : \"Singapore 199588\",\n         \"geometry\" : {\n            \"location\"
+        : {\n               \"lat\" : 1.302908,\n               \"lng\" : 103.864945\n
+        \           },\n            \"location_type\" : \"APPROXIMATE\",\n            \"viewport\"
+        : {\n               \"northeast\" : {\n                  \"lat\" : 1.304256980291502,\n
+        \                 \"lng\" : 103.8662939802915\n               },\n               \"southwest\"
+        : {\n                  \"lat\" : 1.301559019708498,\n                  \"lng\"
+        : 103.8635960197085\n               }\n            }\n         },\n         \"types\"
+        : [ \"postal_code\" ]\n      },\n      {\n         \"address_components\"
+        : [\n            {\n               \"long_name\" : \"Kallang\",\n               \"short_name\"
+        : \"Kallang\",\n               \"types\" : [ \"neighborhood\", \"political\"
+        ]\n            },\n            {\n               \"long_name\" : \"Singapore\",\n
+        \              \"short_name\" : \"SG\",\n               \"types\" : [ \"country\",
+        \"political\" ]\n            }\n         ],\n         \"formatted_address\"
+        : \"Kallang, Singapore\",\n         \"geometry\" : {\n            \"bounds\"
+        : {\n               \"northeast\" : {\n                  \"lat\" : 1.3304539,\n
+        \                 \"lng\" : 103.8855219\n               },\n               \"southwest\"
+        : {\n                  \"lat\" : 1.294024,\n                  \"lng\" : 103.8442939\n
+        \              }\n            },\n            \"location\" : {\n               \"lat\"
+        : 1.3100334,\n               \"lng\" : 103.8651056\n            },\n            \"location_type\"
+        : \"APPROXIMATE\",\n            \"viewport\" : {\n               \"northeast\"
+        : {\n                  \"lat\" : 1.3304539,\n                  \"lng\" : 103.8855219\n
+        \              },\n               \"southwest\" : {\n                  \"lat\"
+        : 1.294024,\n                  \"lng\" : 103.8442939\n               }\n            }\n
+        \        },\n         \"types\" : [ \"neighborhood\", \"political\" ]\n      },\n
+        \     {\n         \"address_components\" : [\n            {\n               \"long_name\"
+        : \"Singapore\",\n               \"short_name\" : \"Singapore\",\n               \"types\"
+        : [ \"locality\", \"political\" ]\n            },\n            {\n               \"long_name\"
+        : \"Singapore\",\n               \"short_name\" : \"SG\",\n               \"types\"
+        : [ \"country\", \"political\" ]\n            }\n         ],\n         \"formatted_address\"
+        : \"Singapore\",\n         \"geometry\" : {\n            \"bounds\" : {\n
+        \              \"northeast\" : {\n                  \"lat\" : 1.470624,\n
+        \                 \"lng\" : 104.0414964\n               },\n               \"southwest\"
+        : {\n                  \"lat\" : 1.2205597,\n                  \"lng\" : 103.6098182\n
+        \              }\n            },\n            \"location\" : {\n               \"lat\"
+        : 1.2800945,\n               \"lng\" : 103.8509491\n            },\n            \"location_type\"
+        : \"APPROXIMATE\",\n            \"viewport\" : {\n               \"northeast\"
+        : {\n                  \"lat\" : 1.470624,\n                  \"lng\" : 104.0414964\n
+        \              },\n               \"southwest\" : {\n                  \"lat\"
+        : 1.2205597,\n                  \"lng\" : 103.6098182\n               }\n
+        \           }\n         },\n         \"types\" : [ \"locality\", \"political\"
+        ]\n      },\n      {\n         \"address_components\" : [\n            {\n
+        \              \"long_name\" : \"Singapore\",\n               \"short_name\"
+        : \"SG\",\n               \"types\" : [ \"country\", \"political\" ]\n            }\n
+        \        ],\n         \"formatted_address\" : \"Singapore\",\n         \"geometry\"
+        : {\n            \"bounds\" : {\n               \"northeast\" : {\n                  \"lat\"
+        : 1.4707698,\n                  \"lng\" : 104.0855574\n               },\n
+        \              \"southwest\" : {\n                  \"lat\" : 1.166398,\n
+        \                 \"lng\" : 103.6055755\n               }\n            },\n
+        \           \"location\" : {\n               \"lat\" : 1.352083,\n               \"lng\"
+        : 103.819836\n            },\n            \"location_type\" : \"APPROXIMATE\",\n
+        \           \"viewport\" : {\n               \"northeast\" : {\n                  \"lat\"
+        : 1.4707698,\n                  \"lng\" : 104.0855574\n               },\n
+        \              \"southwest\" : {\n                  \"lat\" : 1.166398,\n
+        \                 \"lng\" : 103.6055755\n               }\n            }\n
+        \        },\n         \"types\" : [ \"country\", \"political\" ]\n      }\n
+        \  ],\n   \"status\" : \"OK\"\n}\n"
+    http_version: 
+  recorded_at: Wed, 30 Oct 2013 05:15:48 GMT
+- request:
+    method: get
+    uri: http://maps.googleapis.com/maps/api/geocode/json?language=en&latlng=1.302128,103.864082&sensor=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Wed, 30 Oct 2013 05:16:42 GMT
+      Expires:
+      - Thu, 31 Oct 2013 05:16:42 GMT
+      Cache-Control:
+      - public, max-age=86400
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alternate-Protocol:
+      - 80:quic
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: US-ASCII
+      string: ! "{\n   \"results\" : [\n      {\n         \"address_components\" :
+        [\n            {\n               \"long_name\" : \"6001\",\n               \"short_name\"
+        : \"6001\",\n               \"types\" : [ \"street_number\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Beach Road\",\n               \"short_name\"
+        : \"Beach Rd\",\n               \"types\" : [ \"route\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Singapore\",\n               \"short_name\"
+        : \"Singapore\",\n               \"types\" : [ \"locality\", \"political\"
+        ]\n            },\n            {\n               \"long_name\" : \"Singapore\",\n
+        \              \"short_name\" : \"SG\",\n               \"types\" : [ \"country\",
+        \"political\" ]\n            },\n            {\n               \"long_name\"
+        : \"199589\",\n               \"short_name\" : \"199589\",\n               \"types\"
+        : [ \"postal_code\" ]\n            }\n         ],\n         \"formatted_address\"
+        : \"6001 Beach Road, Singapore 199589\",\n         \"geometry\" : {\n            \"location\"
+        : {\n               \"lat\" : 1.302128,\n               \"lng\" : 103.864082\n
+        \           },\n            \"location_type\" : \"ROOFTOP\",\n            \"viewport\"
+        : {\n               \"northeast\" : {\n                  \"lat\" : 1.303476980291502,\n
+        \                 \"lng\" : 103.8654309802915\n               },\n               \"southwest\"
+        : {\n                  \"lat\" : 1.300779019708498,\n                  \"lng\"
+        : 103.8627330197085\n               }\n            }\n         },\n         \"types\"
+        : [ \"street_address\" ]\n      },\n      {\n         \"address_components\"
+        : [\n            {\n               \"long_name\" : \"199589\",\n               \"short_name\"
+        : \"199589\",\n               \"types\" : [ \"postal_code\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Singapore\",\n               \"short_name\"
+        : \"Singapore\",\n               \"types\" : [ \"locality\", \"political\"
+        ]\n            },\n            {\n               \"long_name\" : \"Singapore\",\n
+        \              \"short_name\" : \"SG\",\n               \"types\" : [ \"country\",
+        \"political\" ]\n            }\n         ],\n         \"formatted_address\"
+        : \"Singapore 199589\",\n         \"geometry\" : {\n            \"location\"
+        : {\n               \"lat\" : 1.302128,\n               \"lng\" : 103.864082\n
+        \           },\n            \"location_type\" : \"APPROXIMATE\",\n            \"viewport\"
+        : {\n               \"northeast\" : {\n                  \"lat\" : 1.303476980291502,\n
+        \                 \"lng\" : 103.8654309802915\n               },\n               \"southwest\"
+        : {\n                  \"lat\" : 1.300779019708498,\n                  \"lng\"
+        : 103.8627330197085\n               }\n            }\n         },\n         \"types\"
+        : [ \"postal_code\" ]\n      },\n      {\n         \"address_components\"
+        : [\n            {\n               \"long_name\" : \"199598\",\n               \"short_name\"
+        : \"199598\",\n               \"types\" : [ \"postal_code\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Singapore\",\n               \"short_name\"
+        : \"Singapore\",\n               \"types\" : [ \"locality\", \"political\"
+        ]\n            },\n            {\n               \"long_name\" : \"Singapore\",\n
+        \              \"short_name\" : \"SG\",\n               \"types\" : [ \"country\",
+        \"political\" ]\n            }\n         ],\n         \"formatted_address\"
+        : \"Singapore 199598\",\n         \"geometry\" : {\n            \"location\"
+        : {\n               \"lat\" : 1.302538,\n               \"lng\" : 103.864219\n
+        \           },\n            \"location_type\" : \"APPROXIMATE\",\n            \"viewport\"
+        : {\n               \"northeast\" : {\n                  \"lat\" : 1.303886980291502,\n
+        \                 \"lng\" : 103.8655679802915\n               },\n               \"southwest\"
+        : {\n                  \"lat\" : 1.301189019708498,\n                  \"lng\"
+        : 103.8628700197085\n               }\n            }\n         },\n         \"types\"
+        : [ \"postal_code\" ]\n      },\n      {\n         \"address_components\"
+        : [\n            {\n               \"long_name\" : \"199583\",\n               \"short_name\"
+        : \"199583\",\n               \"types\" : [ \"postal_code\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Singapore\",\n               \"short_name\"
+        : \"Singapore\",\n               \"types\" : [ \"locality\", \"political\"
+        ]\n            },\n            {\n               \"long_name\" : \"Singapore\",\n
+        \              \"short_name\" : \"SG\",\n               \"types\" : [ \"country\",
+        \"political\" ]\n            }\n         ],\n         \"formatted_address\"
+        : \"Singapore 199583\",\n         \"geometry\" : {\n            \"location\"
+        : {\n               \"lat\" : 1.3028979,\n               \"lng\" : 103.863909\n
+        \           },\n            \"location_type\" : \"APPROXIMATE\",\n            \"viewport\"
+        : {\n               \"northeast\" : {\n                  \"lat\" : 1.304246880291502,\n
+        \                 \"lng\" : 103.8652579802915\n               },\n               \"southwest\"
+        : {\n                  \"lat\" : 1.301548919708498,\n                  \"lng\"
+        : 103.8625600197085\n               }\n            }\n         },\n         \"types\"
+        : [ \"postal_code\" ]\n      },\n      {\n         \"address_components\"
+        : [\n            {\n               \"long_name\" : \"199588\",\n               \"short_name\"
+        : \"199588\",\n               \"types\" : [ \"postal_code\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Singapore\",\n               \"short_name\"
+        : \"Singapore\",\n               \"types\" : [ \"locality\", \"political\"
+        ]\n            },\n            {\n               \"long_name\" : \"Singapore\",\n
+        \              \"short_name\" : \"SG\",\n               \"types\" : [ \"country\",
+        \"political\" ]\n            }\n         ],\n         \"formatted_address\"
+        : \"Singapore 199588\",\n         \"geometry\" : {\n            \"location\"
+        : {\n               \"lat\" : 1.302908,\n               \"lng\" : 103.864945\n
+        \           },\n            \"location_type\" : \"APPROXIMATE\",\n            \"viewport\"
+        : {\n               \"northeast\" : {\n                  \"lat\" : 1.304256980291502,\n
+        \                 \"lng\" : 103.8662939802915\n               },\n               \"southwest\"
+        : {\n                  \"lat\" : 1.301559019708498,\n                  \"lng\"
+        : 103.8635960197085\n               }\n            }\n         },\n         \"types\"
+        : [ \"postal_code\" ]\n      },\n      {\n         \"address_components\"
+        : [\n            {\n               \"long_name\" : \"Kallang\",\n               \"short_name\"
+        : \"Kallang\",\n               \"types\" : [ \"neighborhood\", \"political\"
+        ]\n            },\n            {\n               \"long_name\" : \"Singapore\",\n
+        \              \"short_name\" : \"SG\",\n               \"types\" : [ \"country\",
+        \"political\" ]\n            }\n         ],\n         \"formatted_address\"
+        : \"Kallang, Singapore\",\n         \"geometry\" : {\n            \"bounds\"
+        : {\n               \"northeast\" : {\n                  \"lat\" : 1.3304539,\n
+        \                 \"lng\" : 103.8855219\n               },\n               \"southwest\"
+        : {\n                  \"lat\" : 1.294024,\n                  \"lng\" : 103.8442939\n
+        \              }\n            },\n            \"location\" : {\n               \"lat\"
+        : 1.3100334,\n               \"lng\" : 103.8651056\n            },\n            \"location_type\"
+        : \"APPROXIMATE\",\n            \"viewport\" : {\n               \"northeast\"
+        : {\n                  \"lat\" : 1.3304539,\n                  \"lng\" : 103.8855219\n
+        \              },\n               \"southwest\" : {\n                  \"lat\"
+        : 1.294024,\n                  \"lng\" : 103.8442939\n               }\n            }\n
+        \        },\n         \"types\" : [ \"neighborhood\", \"political\" ]\n      },\n
+        \     {\n         \"address_components\" : [\n            {\n               \"long_name\"
+        : \"Singapore\",\n               \"short_name\" : \"Singapore\",\n               \"types\"
+        : [ \"locality\", \"political\" ]\n            },\n            {\n               \"long_name\"
+        : \"Singapore\",\n               \"short_name\" : \"SG\",\n               \"types\"
+        : [ \"country\", \"political\" ]\n            }\n         ],\n         \"formatted_address\"
+        : \"Singapore\",\n         \"geometry\" : {\n            \"bounds\" : {\n
+        \              \"northeast\" : {\n                  \"lat\" : 1.470624,\n
+        \                 \"lng\" : 104.0414964\n               },\n               \"southwest\"
+        : {\n                  \"lat\" : 1.2205597,\n                  \"lng\" : 103.6098182\n
+        \              }\n            },\n            \"location\" : {\n               \"lat\"
+        : 1.2800945,\n               \"lng\" : 103.8509491\n            },\n            \"location_type\"
+        : \"APPROXIMATE\",\n            \"viewport\" : {\n               \"northeast\"
+        : {\n                  \"lat\" : 1.470624,\n                  \"lng\" : 104.0414964\n
+        \              },\n               \"southwest\" : {\n                  \"lat\"
+        : 1.2205597,\n                  \"lng\" : 103.6098182\n               }\n
+        \           }\n         },\n         \"types\" : [ \"locality\", \"political\"
+        ]\n      },\n      {\n         \"address_components\" : [\n            {\n
+        \              \"long_name\" : \"Singapore\",\n               \"short_name\"
+        : \"SG\",\n               \"types\" : [ \"country\", \"political\" ]\n            }\n
+        \        ],\n         \"formatted_address\" : \"Singapore\",\n         \"geometry\"
+        : {\n            \"bounds\" : {\n               \"northeast\" : {\n                  \"lat\"
+        : 1.4707698,\n                  \"lng\" : 104.0855574\n               },\n
+        \              \"southwest\" : {\n                  \"lat\" : 1.166398,\n
+        \                 \"lng\" : 103.6055755\n               }\n            },\n
+        \           \"location\" : {\n               \"lat\" : 1.352083,\n               \"lng\"
+        : 103.819836\n            },\n            \"location_type\" : \"APPROXIMATE\",\n
+        \           \"viewport\" : {\n               \"northeast\" : {\n                  \"lat\"
+        : 1.4707698,\n                  \"lng\" : 104.0855574\n               },\n
+        \              \"southwest\" : {\n                  \"lat\" : 1.166398,\n
+        \                 \"lng\" : 103.6055755\n               }\n            }\n
+        \        },\n         \"types\" : [ \"country\", \"political\" ]\n      }\n
+        \  ],\n   \"status\" : \"OK\"\n}\n"
+    http_version: 
+  recorded_at: Wed, 30 Oct 2013 05:16:35 GMT
+recorded_with: VCR 2.6.0

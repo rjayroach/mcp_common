@@ -1,0 +1,6 @@
+
+<% active = (list_counter == 0) %>
+<li class="cdr-tab<%= active ? ' active' : '' %>">
+  <a <%= active ? 'id=multi_tab_first_active' : '' %> href="#tab<%= list_counter %>" data-tab-param='<%= list[:table] %>' data-tab-rendered='<%= list_counter == 0 %>' data-toggle="tab"><%= list[:title] %></a>
+</li>
+

@@ -1,0 +1,38 @@
+
+
+<% if @app_config.tabbed_partials.count > 0 %>
+
+  <div class="tabbable"> <!-- Only required for left/right tabs -->
+    <ul class="nav nav-tabs">
+      <% index = 1 %>
+      <%= nav_tab index: index, text: 'Main', default: true %>
+      <% @app_config.tabbed_partials.each do |partial| %>
+        <% index += 1 %>
+        <%= nav_tab index: index, text: partial[:title] %>
+      <% end %>
+    </ul>
+
+
+    <div class="tab-content">
+      <% index = 1 %>
+      <%= tab_pane index: index, default: true do %>
+        <%= render partial: 'form' %>
+      <% end %>
+      <% @app_config.tabbed_partials.each do |partial| %>
+        <% index += 1 %>
+        <%= tab_pane index: index do %>
+          <%= render partial: partial[:path], locals: {model: @app_config} %>
+        <% end %>
+      <% end %>
+
+    </div>
+  </div>
+
+<% else %>
+  <%= render "form" %>
+<% end %>
+
+
+  <%# mcp_engines_render_partial 'app_config/form', skip: :mcp_common, locals: { f: f, model: @app_config } %>
+
+

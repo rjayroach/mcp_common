@@ -1,0 +1,13 @@
+
+<div class="tab-pane<%= (list_counter == 0) ? ' active' : '' %>" id="tab<%= list_counter %>">
+  <table id="<%= list[:table] %>" class="display" data-source="<%= list[:url] %>">
+    <thead>
+      <tr>
+        <% list[:columns].each do |c| %>
+          <th><%= c %></th>
+        <% end %>
+      </tr>
+    </thead>
+  </table>
+</div>
+

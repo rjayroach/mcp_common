@@ -1,0 +1,11 @@
+
+<p>
+  <b>Settings</b>
+  <%= @app_config.settings %>
+</p>
+
+<% if current_user.has_role? :admin %>
+  <%= link_to 'Edit', config_edit_path %>
+<% else %>
+<% end %>
+

@@ -1,0 +1,28 @@
+
+<% is_nil = r.translation.nil? %>
+<% r.build_location if r.location.nil? %>
+
+<div class="row">
+  <div class="span5">
+  <%= f.simple_fields_for :location do |a| %>
+    <%= a.input :address1, required: false %>
+    <%= a.input :address2, required: false %>
+    <%# a.input :address3, required: false %>
+    <%# a.input :address4, required: false %>
+    <%# a.input :locality, required: false %>
+    <%# a.input :region, required: false %>
+    <%= a.input :postal_code, required: false %>
+    <%= a.input :country, collection: ['Singapore'], required: false %>
+    <% if !is_nil %>
+      <%= a.input :_destroy, as: :boolean, label: false, inline_label: 'delete location' %>
+    <% end %>
+  <% end %>
+  </div>
+
+
+  <div class="span4">
+    <%= image_tag "http://maps.google.com/maps/api/staticmap?size=450x300&sensor=false&zoom=16&markers=#{r.location.latitude}%2C#{r.location.longitude}" %>
+  </div>
+
+</div>
+

@@ -1,0 +1,26 @@
+
+<%# link_to("#{APPLICATION_CONFIG['app_name']}", main_app.root_path, :class => 'brand') if main_app.respond_to? :root_path and APPLICATION_CONFIG['app_name'] %>
+
+<ul class="nav">
+  <%# Render the engine's navigation block (if it exists) %>
+    <%= mcp_engines_render_partial 'layouts/navigation', skip: :mcp_common %>
+
+  <% if user_signed_in? %>
+    <%= top_menu('Account') do %>
+      <%= yield :account_menu %>
+    <% end %>
+
+    <%= yield :main_menu %>
+
+    <% if current_user.has_role? :admin %>
+      <%= top_menu('Admin') do %>
+        <%= yield :admin_menu %>
+      <% end %>
+    <% end %>
+
+
+  <% else %>
+    <%= yield :anonymous_menu %>
+  <% end %>
+</ul>
+

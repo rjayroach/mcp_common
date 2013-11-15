@@ -1,0 +1,373 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://maps.googleapis.com/maps/api/geocode/json?address=Geylang%20Lorong%2027%20%2302-01%20%20%20%20Singapore%20%20388199%20SG&language=en&sensor=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Wed, 30 Oct 2013 05:00:25 GMT
+      Expires:
+      - Thu, 31 Oct 2013 05:00:25 GMT
+      Cache-Control:
+      - public, max-age=86400
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alternate-Protocol:
+      - 80:quic
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: US-ASCII
+      string: ! "{\n   \"results\" : [\n      {\n         \"address_components\" :
+        [\n            {\n               \"long_name\" : \"1\",\n               \"short_name\"
+        : \"1\",\n               \"types\" : [ \"street_number\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Lorong 27 Geylang\",\n               \"short_name\"
+        : \"Lor 27 Geylang\",\n               \"types\" : [ \"route\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Singapore\",\n               \"short_name\"
+        : \"Singapore\",\n               \"types\" : [ \"locality\", \"political\"
+        ]\n            },\n            {\n               \"long_name\" : \"Singapore\",\n
+        \              \"short_name\" : \"SG\",\n               \"types\" : [ \"country\",
+        \"political\" ]\n            },\n            {\n               \"long_name\"
+        : \"388153\",\n               \"short_name\" : \"388153\",\n               \"types\"
+        : [ \"postal_code\" ]\n            }\n         ],\n         \"formatted_address\"
+        : \"1 Lorong 27 Geylang, Singapore 388153\",\n         \"geometry\" : {\n
+        \           \"location\" : {\n               \"lat\" : 1.31348,\n               \"lng\"
+        : 103.883756\n            },\n            \"location_type\" : \"ROOFTOP\",\n
+        \           \"viewport\" : {\n               \"northeast\" : {\n                  \"lat\"
+        : 1.314828980291502,\n                  \"lng\" : 103.8851049802915\n               },\n
+        \              \"southwest\" : {\n                  \"lat\" : 1.312131019708498,\n
+        \                 \"lng\" : 103.8824070197085\n               }\n            }\n
+        \        },\n         \"partial_match\" : true,\n         \"types\" : [ \"street_address\"
+        ]\n      },\n      {\n         \"address_components\" : [\n            {\n
+        \              \"long_name\" : \"1A\",\n               \"short_name\" : \"1A\",\n
+        \              \"types\" : [ \"street_number\" ]\n            },\n            {\n
+        \              \"long_name\" : \"Lorong 27 Geylang\",\n               \"short_name\"
+        : \"Lor 27 Geylang\",\n               \"types\" : [ \"route\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Singapore\",\n               \"short_name\"
+        : \"Singapore\",\n               \"types\" : [ \"locality\", \"political\"
+        ]\n            },\n            {\n               \"long_name\" : \"Singapore\",\n
+        \              \"short_name\" : \"SG\",\n               \"types\" : [ \"country\",
+        \"political\" ]\n            },\n            {\n               \"long_name\"
+        : \"388154\",\n               \"short_name\" : \"388154\",\n               \"types\"
+        : [ \"postal_code\" ]\n            }\n         ],\n         \"formatted_address\"
+        : \"1A Lorong 27 Geylang, Singapore 388154\",\n         \"geometry\" : {\n
+        \           \"location\" : {\n               \"lat\" : 1.313479,\n               \"lng\"
+        : 103.8837549\n            },\n            \"location_type\" : \"ROOFTOP\",\n
+        \           \"viewport\" : {\n               \"northeast\" : {\n                  \"lat\"
+        : 1.314827980291502,\n                  \"lng\" : 103.8851038802915\n               },\n
+        \              \"southwest\" : {\n                  \"lat\" : 1.312130019708498,\n
+        \                 \"lng\" : 103.8824059197085\n               }\n            }\n
+        \        },\n         \"partial_match\" : true,\n         \"types\" : [ \"street_address\"
+        ]\n      },\n      {\n         \"address_components\" : [\n            {\n
+        \              \"long_name\" : \"1B\",\n               \"short_name\" : \"1B\",\n
+        \              \"types\" : [ \"street_number\" ]\n            },\n            {\n
+        \              \"long_name\" : \"Lorong 27 Geylang\",\n               \"short_name\"
+        : \"Lor 27 Geylang\",\n               \"types\" : [ \"route\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Singapore\",\n               \"short_name\"
+        : \"Singapore\",\n               \"types\" : [ \"locality\", \"political\"
+        ]\n            },\n            {\n               \"long_name\" : \"Singapore\",\n
+        \              \"short_name\" : \"SG\",\n               \"types\" : [ \"country\",
+        \"political\" ]\n            },\n            {\n               \"long_name\"
+        : \"388155\",\n               \"short_name\" : \"388155\",\n               \"types\"
+        : [ \"postal_code\" ]\n            }\n         ],\n         \"formatted_address\"
+        : \"1B Lorong 27 Geylang, Singapore 388155\",\n         \"geometry\" : {\n
+        \           \"location\" : {\n               \"lat\" : 1.313479,\n               \"lng\"
+        : 103.8837549\n            },\n            \"location_type\" : \"ROOFTOP\",\n
+        \           \"viewport\" : {\n               \"northeast\" : {\n                  \"lat\"
+        : 1.314827980291502,\n                  \"lng\" : 103.8851038802915\n               },\n
+        \              \"southwest\" : {\n                  \"lat\" : 1.312130019708498,\n
+        \                 \"lng\" : 103.8824059197085\n               }\n            }\n
+        \        },\n         \"partial_match\" : true,\n         \"types\" : [ \"street_address\"
+        ]\n      },\n      {\n         \"address_components\" : [\n            {\n
+        \              \"long_name\" : \"2\",\n               \"short_name\" : \"2\",\n
+        \              \"types\" : [ \"street_number\" ]\n            },\n            {\n
+        \              \"long_name\" : \"Lor 42 Geylang\",\n               \"short_name\"
+        : \"Lor 42 Geylang\",\n               \"types\" : [ \"route\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Singapore\",\n               \"short_name\"
+        : \"Singapore\",\n               \"types\" : [ \"locality\", \"political\"
+        ]\n            },\n            {\n               \"long_name\" : \"Singapore\",\n
+        \              \"short_name\" : \"SG\",\n               \"types\" : [ \"country\",
+        \"political\" ]\n            },\n            {\n               \"long_name\"
+        : \"398022\",\n               \"short_name\" : \"398022\",\n               \"types\"
+        : [ \"postal_code\" ]\n            }\n         ],\n         \"formatted_address\"
+        : \"2 Lor 42 Geylang, Singapore 398022\",\n         \"geometry\" : {\n            \"location\"
+        : {\n               \"lat\" : 1.3144622,\n               \"lng\" : 103.8902676\n
+        \           },\n            \"location_type\" : \"ROOFTOP\",\n            \"viewport\"
+        : {\n               \"northeast\" : {\n                  \"lat\" : 1.315811180291502,\n
+        \                 \"lng\" : 103.8916165802915\n               },\n               \"southwest\"
+        : {\n                  \"lat\" : 1.313113219708498,\n                  \"lng\"
+        : 103.8889186197085\n               }\n            }\n         },\n         \"partial_match\"
+        : true,\n         \"types\" : [ \"street_address\" ]\n      }\n   ],\n   \"status\"
+        : \"OK\"\n}\n"
+    http_version: 
+  recorded_at: Wed, 30 Oct 2013 05:00:18 GMT
+- request:
+    method: get
+    uri: http://maps.googleapis.com/maps/api/geocode/json?address=1%20%20%20%20Singapore%20%20388199%20SG&language=en&sensor=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Wed, 30 Oct 2013 05:00:54 GMT
+      Expires:
+      - Thu, 31 Oct 2013 05:00:54 GMT
+      Cache-Control:
+      - public, max-age=86400
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alternate-Protocol:
+      - 80:quic
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: US-ASCII
+      string: ! "{\n   \"results\" : [\n      {\n         \"address_components\" :
+        [\n            {\n               \"long_name\" : \"2000\",\n               \"short_name\"
+        : \"2000\",\n               \"types\" : [ \"street_number\" ]\n            },\n
+        \           {\n               \"long_name\" : \"West Camp Road\",\n               \"short_name\"
+        : \"West Camp Rd\",\n               \"types\" : [ \"route\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Singapore\",\n               \"short_name\"
+        : \"Singapore\",\n               \"types\" : [ \"locality\", \"political\"
+        ]\n            },\n            {\n               \"long_name\" : \"Singapore\",\n
+        \              \"short_name\" : \"SG\",\n               \"types\" : [ \"country\",
+        \"political\" ]\n            },\n            {\n               \"long_name\"
+        : \"797648\",\n               \"short_name\" : \"797648\",\n               \"types\"
+        : [ \"postal_code\" ]\n            }\n         ],\n         \"formatted_address\"
+        : \"2000 West Camp Road, Singapore 797648\",\n         \"geometry\" : {\n
+        \           \"location\" : {\n               \"lat\" : 1.4225288,\n               \"lng\"
+        : 103.8661906\n            },\n            \"location_type\" : \"ROOFTOP\",\n
+        \           \"viewport\" : {\n               \"northeast\" : {\n                  \"lat\"
+        : 1.423877780291502,\n                  \"lng\" : 103.8675395802915\n               },\n
+        \              \"southwest\" : {\n                  \"lat\" : 1.421179819708498,\n
+        \                 \"lng\" : 103.8648416197085\n               }\n            }\n
+        \        },\n         \"partial_match\" : true,\n         \"types\" : [ \"street_address\"
+        ]\n      }\n   ],\n   \"status\" : \"OK\"\n}\n"
+    http_version: 
+  recorded_at: Wed, 30 Oct 2013 05:00:48 GMT
+- request:
+    method: get
+    uri: http://maps.googleapis.com/maps/api/geocode/json?address=%20%20%20%20Singapore%20%20388199%20SG&language=en&sensor=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Wed, 30 Oct 2013 05:02:37 GMT
+      Expires:
+      - Thu, 31 Oct 2013 05:02:37 GMT
+      Cache-Control:
+      - public, max-age=86400
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alternate-Protocol:
+      - 80:quic
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: US-ASCII
+      string: ! "{\n   \"results\" : [\n      {\n         \"address_components\" :
+        [\n            {\n               \"long_name\" : \"388199\",\n               \"short_name\"
+        : \"388199\",\n               \"types\" : [ \"postal_code\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Singapore\",\n               \"short_name\"
+        : \"Singapore\",\n               \"types\" : [ \"locality\", \"political\"
+        ]\n            },\n            {\n               \"long_name\" : \"Singapore\",\n
+        \              \"short_name\" : \"SG\",\n               \"types\" : [ \"country\",
+        \"political\" ]\n            }\n         ],\n         \"formatted_address\"
+        : \"Singapore 388199\",\n         \"geometry\" : {\n            \"location\"
+        : {\n               \"lat\" : 1.313483,\n               \"lng\" : 103.883776\n
+        \           },\n            \"location_type\" : \"APPROXIMATE\",\n            \"viewport\"
+        : {\n               \"northeast\" : {\n                  \"lat\" : 1.314831980291502,\n
+        \                 \"lng\" : 103.8851249802915\n               },\n               \"southwest\"
+        : {\n                  \"lat\" : 1.312134019708498,\n                  \"lng\"
+        : 103.8824270197085\n               }\n            }\n         },\n         \"types\"
+        : [ \"postal_code\" ]\n      }\n   ],\n   \"status\" : \"OK\"\n}\n"
+    http_version: 
+  recorded_at: Wed, 30 Oct 2013 05:02:30 GMT
+- request:
+    method: get
+    uri: http://maps.googleapis.com/maps/api/geocode/json?address=10%20Lorong%2027%20Geylang%20%2302-01%20%20%20Singapore%20%20388199%20SG&language=en&sensor=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Wed, 30 Oct 2013 05:26:40 GMT
+      Expires:
+      - Thu, 31 Oct 2013 05:26:40 GMT
+      Cache-Control:
+      - public, max-age=86400
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alternate-Protocol:
+      - 80:quic
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: US-ASCII
+      string: ! "{\n   \"results\" : [\n      {\n         \"address_components\" :
+        [\n            {\n               \"long_name\" : \"10\",\n               \"short_name\"
+        : \"10\",\n               \"types\" : [ \"street_number\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Lorong 27 Geylang\",\n               \"short_name\"
+        : \"Lor 27 Geylang\",\n               \"types\" : [ \"route\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Singapore\",\n               \"short_name\"
+        : \"Singapore\",\n               \"types\" : [ \"locality\", \"political\"
+        ]\n            },\n            {\n               \"long_name\" : \"Singapore\",\n
+        \              \"short_name\" : \"SG\",\n               \"types\" : [ \"country\",
+        \"political\" ]\n            },\n            {\n               \"long_name\"
+        : \"388199\",\n               \"short_name\" : \"388199\",\n               \"types\"
+        : [ \"postal_code\" ]\n            }\n         ],\n         \"formatted_address\"
+        : \"10 Lorong 27 Geylang, Singapore 388199\",\n         \"geometry\" : {\n
+        \           \"location\" : {\n               \"lat\" : 1.3146203,\n               \"lng\"
+        : 103.8839036\n            },\n            \"location_type\" : \"ROOFTOP\",\n
+        \           \"viewport\" : {\n               \"northeast\" : {\n                  \"lat\"
+        : 1.315969280291502,\n                  \"lng\" : 103.8852525802915\n               },\n
+        \              \"southwest\" : {\n                  \"lat\" : 1.313271319708498,\n
+        \                 \"lng\" : 103.8825546197085\n               }\n            }\n
+        \        },\n         \"partial_match\" : true,\n         \"types\" : [ \"street_address\"
+        ]\n      }\n   ],\n   \"status\" : \"OK\"\n}\n"
+    http_version: 
+  recorded_at: Wed, 30 Oct 2013 05:26:33 GMT
+- request:
+    method: get
+    uri: http://maps.googleapis.com/maps/api/geocode/json?address=10%20Lorong%2027%20Geylang%20%2302-01%20%20%20Singapore%20%20388199%20Singapore&language=en&sensor=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Wed, 30 Oct 2013 06:00:54 GMT
+      Expires:
+      - Thu, 31 Oct 2013 06:00:54 GMT
+      Cache-Control:
+      - public, max-age=86400
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alternate-Protocol:
+      - 80:quic
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: US-ASCII
+      string: ! "{\n   \"results\" : [\n      {\n         \"address_components\" :
+        [\n            {\n               \"long_name\" : \"10\",\n               \"short_name\"
+        : \"10\",\n               \"types\" : [ \"street_number\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Lorong 27 Geylang\",\n               \"short_name\"
+        : \"Lor 27 Geylang\",\n               \"types\" : [ \"route\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Singapore\",\n               \"short_name\"
+        : \"Singapore\",\n               \"types\" : [ \"locality\", \"political\"
+        ]\n            },\n            {\n               \"long_name\" : \"Singapore\",\n
+        \              \"short_name\" : \"SG\",\n               \"types\" : [ \"country\",
+        \"political\" ]\n            },\n            {\n               \"long_name\"
+        : \"388199\",\n               \"short_name\" : \"388199\",\n               \"types\"
+        : [ \"postal_code\" ]\n            }\n         ],\n         \"formatted_address\"
+        : \"10 Lorong 27 Geylang, Singapore 388199\",\n         \"geometry\" : {\n
+        \           \"location\" : {\n               \"lat\" : 1.3146203,\n               \"lng\"
+        : 103.8839036\n            },\n            \"location_type\" : \"ROOFTOP\",\n
+        \           \"viewport\" : {\n               \"northeast\" : {\n                  \"lat\"
+        : 1.315969280291502,\n                  \"lng\" : 103.8852525802915\n               },\n
+        \              \"southwest\" : {\n                  \"lat\" : 1.313271319708498,\n
+        \                 \"lng\" : 103.8825546197085\n               }\n            }\n
+        \        },\n         \"partial_match\" : true,\n         \"types\" : [ \"street_address\"
+        ]\n      }\n   ],\n   \"status\" : \"OK\"\n}\n"
+    http_version: 
+  recorded_at: Wed, 30 Oct 2013 06:00:47 GMT
+recorded_with: VCR 2.6.0

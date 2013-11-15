@@ -1,0 +1,21 @@
+
+
+<%= simple_form_for(@app_config, url: config_path, method: :post) do |f| %>
+  <% if @app_config.errors.any? %>
+    <% flash[:error] = "#{pluralize(@app_config.errors.count, "error")} prohibited this user from being saved" %>
+    <% flash[:error] << "<br>#{@app_config.errors.full_messages.join("<br>")}" %>
+  <% end %>
+
+  <%= f.simple_fields_for :settings, OpenStruct.new(@app_config.settings) do |set| %>
+    <%= set.input :common_field %>
+  <% end %>
+
+
+  <% @app_config.main_partials.each do |partial| %>
+    <%= render partial: partial[:path], locals: {f: f, model: @app_config} %>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit id: 'config_submit' %>
+  </div>
+<% end %>

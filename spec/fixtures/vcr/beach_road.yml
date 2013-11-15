@@ -1,0 +1,127 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://maps.googleapis.com/maps/api/geocode/json?address=6001%20Beach%20Road%20%20%20%20Singapore%20%20199589%20SG&language=en&sensor=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Wed, 30 Oct 2013 05:15:37 GMT
+      Expires:
+      - Thu, 31 Oct 2013 05:15:37 GMT
+      Cache-Control:
+      - public, max-age=86400
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alternate-Protocol:
+      - 80:quic
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: US-ASCII
+      string: ! "{\n   \"results\" : [\n      {\n         \"address_components\" :
+        [\n            {\n               \"long_name\" : \"6001\",\n               \"short_name\"
+        : \"6001\",\n               \"types\" : [ \"street_number\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Beach Road\",\n               \"short_name\"
+        : \"Beach Rd\",\n               \"types\" : [ \"route\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Singapore\",\n               \"short_name\"
+        : \"Singapore\",\n               \"types\" : [ \"locality\", \"political\"
+        ]\n            },\n            {\n               \"long_name\" : \"Singapore\",\n
+        \              \"short_name\" : \"SG\",\n               \"types\" : [ \"country\",
+        \"political\" ]\n            },\n            {\n               \"long_name\"
+        : \"199589\",\n               \"short_name\" : \"199589\",\n               \"types\"
+        : [ \"postal_code\" ]\n            }\n         ],\n         \"formatted_address\"
+        : \"6001 Beach Road, Singapore 199589\",\n         \"geometry\" : {\n            \"location\"
+        : {\n               \"lat\" : 1.302128,\n               \"lng\" : 103.864082\n
+        \           },\n            \"location_type\" : \"ROOFTOP\",\n            \"viewport\"
+        : {\n               \"northeast\" : {\n                  \"lat\" : 1.303476980291502,\n
+        \                 \"lng\" : 103.8654309802915\n               },\n               \"southwest\"
+        : {\n                  \"lat\" : 1.300779019708498,\n                  \"lng\"
+        : 103.8627330197085\n               }\n            }\n         },\n         \"types\"
+        : [ \"street_address\" ]\n      }\n   ],\n   \"status\" : \"OK\"\n}\n"
+    http_version: 
+  recorded_at: Wed, 30 Oct 2013 05:15:30 GMT
+- request:
+    method: get
+    uri: http://maps.googleapis.com/maps/api/geocode/json?address=6001%20Beach%20Road%20%20%20%20Singapore%20%20199589%20Singapore&language=en&sensor=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Wed, 30 Oct 2013 06:00:55 GMT
+      Expires:
+      - Thu, 31 Oct 2013 06:00:55 GMT
+      Cache-Control:
+      - public, max-age=86400
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alternate-Protocol:
+      - 80:quic
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: US-ASCII
+      string: ! "{\n   \"results\" : [\n      {\n         \"address_components\" :
+        [\n            {\n               \"long_name\" : \"6001\",\n               \"short_name\"
+        : \"6001\",\n               \"types\" : [ \"street_number\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Beach Road\",\n               \"short_name\"
+        : \"Beach Rd\",\n               \"types\" : [ \"route\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Singapore\",\n               \"short_name\"
+        : \"Singapore\",\n               \"types\" : [ \"locality\", \"political\"
+        ]\n            },\n            {\n               \"long_name\" : \"Singapore\",\n
+        \              \"short_name\" : \"SG\",\n               \"types\" : [ \"country\",
+        \"political\" ]\n            },\n            {\n               \"long_name\"
+        : \"199589\",\n               \"short_name\" : \"199589\",\n               \"types\"
+        : [ \"postal_code\" ]\n            }\n         ],\n         \"formatted_address\"
+        : \"6001 Beach Road, Singapore 199589\",\n         \"geometry\" : {\n            \"location\"
+        : {\n               \"lat\" : 1.302128,\n               \"lng\" : 103.864082\n
+        \           },\n            \"location_type\" : \"ROOFTOP\",\n            \"viewport\"
+        : {\n               \"northeast\" : {\n                  \"lat\" : 1.303476980291502,\n
+        \                 \"lng\" : 103.8654309802915\n               },\n               \"southwest\"
+        : {\n                  \"lat\" : 1.300779019708498,\n                  \"lng\"
+        : 103.8627330197085\n               }\n            }\n         },\n         \"types\"
+        : [ \"street_address\" ]\n      }\n   ],\n   \"status\" : \"OK\"\n}\n"
+    http_version: 
+  recorded_at: Wed, 30 Oct 2013 06:00:48 GMT
+recorded_with: VCR 2.6.0

@@ -1,0 +1,10 @@
+
+<div style='display: none;'>
+  <%= form_for location_parent, html: {:'data-type' => 'json', id: "edit_location"}, remote: true do |f| %>
+  <%= f.fields_for :location do |a| %>
+    <%= a.text_field :latitude, id: 'location_attributes_latitude' %>
+    <%= a.text_field :longitude, id: 'location_attributes_longitude' %>
+  <% end %>
+<% end %>
+</div>
+

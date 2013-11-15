@@ -1,0 +1,10 @@
+
+<% content_for :anonymous_menu do %>
+  <%= top_menu('Language') do %> 
+    <% I18n.available_locales.each do |locale| %>
+      <% flag = (locale.to_s.eql? session[:locale].to_s) ? '<' : '' %>
+      <%= content_tag(:li, link_to("#{locale}  #{flag}", locale: "#{locale}")) %>
+    <% end %>
+  <% end %>
+<% end %>
+

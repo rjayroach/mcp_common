@@ -1,0 +1,379 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://maps.googleapis.com/maps/api/geocode/json?address=10%20Lorong%2027%20Geylang%20%2302-01%20%20%20Singapore%20%20388199%20SG&language=en&sensor=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Wed, 30 Oct 2013 05:50:41 GMT
+      Expires:
+      - Thu, 31 Oct 2013 05:50:41 GMT
+      Cache-Control:
+      - public, max-age=86400
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alternate-Protocol:
+      - 80:quic
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: US-ASCII
+      string: ! "{\n   \"results\" : [\n      {\n         \"address_components\" :
+        [\n            {\n               \"long_name\" : \"10\",\n               \"short_name\"
+        : \"10\",\n               \"types\" : [ \"street_number\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Lorong 27 Geylang\",\n               \"short_name\"
+        : \"Lor 27 Geylang\",\n               \"types\" : [ \"route\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Singapore\",\n               \"short_name\"
+        : \"Singapore\",\n               \"types\" : [ \"locality\", \"political\"
+        ]\n            },\n            {\n               \"long_name\" : \"Singapore\",\n
+        \              \"short_name\" : \"SG\",\n               \"types\" : [ \"country\",
+        \"political\" ]\n            },\n            {\n               \"long_name\"
+        : \"388199\",\n               \"short_name\" : \"388199\",\n               \"types\"
+        : [ \"postal_code\" ]\n            }\n         ],\n         \"formatted_address\"
+        : \"10 Lorong 27 Geylang, Singapore 388199\",\n         \"geometry\" : {\n
+        \           \"location\" : {\n               \"lat\" : 1.3146203,\n               \"lng\"
+        : 103.8839036\n            },\n            \"location_type\" : \"ROOFTOP\",\n
+        \           \"viewport\" : {\n               \"northeast\" : {\n                  \"lat\"
+        : 1.315969280291502,\n                  \"lng\" : 103.8852525802915\n               },\n
+        \              \"southwest\" : {\n                  \"lat\" : 1.313271319708498,\n
+        \                 \"lng\" : 103.8825546197085\n               }\n            }\n
+        \        },\n         \"partial_match\" : true,\n         \"types\" : [ \"street_address\"
+        ]\n      }\n   ],\n   \"status\" : \"OK\"\n}\n"
+    http_version: 
+  recorded_at: Wed, 30 Oct 2013 05:50:35 GMT
+- request:
+    method: get
+    uri: http://maps.googleapis.com/maps/api/geocode/json?address=10%20Lorong%2027%20Geylang%20%2302-01%20%20%20Singapore%20%20388199%20SG&language=en&sensor=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Wed, 30 Oct 2013 05:50:42 GMT
+      Expires:
+      - Thu, 31 Oct 2013 05:50:42 GMT
+      Cache-Control:
+      - public, max-age=86400
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alternate-Protocol:
+      - 80:quic
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: US-ASCII
+      string: ! "{\n   \"results\" : [\n      {\n         \"address_components\" :
+        [\n            {\n               \"long_name\" : \"10\",\n               \"short_name\"
+        : \"10\",\n               \"types\" : [ \"street_number\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Lorong 27 Geylang\",\n               \"short_name\"
+        : \"Lor 27 Geylang\",\n               \"types\" : [ \"route\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Singapore\",\n               \"short_name\"
+        : \"Singapore\",\n               \"types\" : [ \"locality\", \"political\"
+        ]\n            },\n            {\n               \"long_name\" : \"Singapore\",\n
+        \              \"short_name\" : \"SG\",\n               \"types\" : [ \"country\",
+        \"political\" ]\n            },\n            {\n               \"long_name\"
+        : \"388199\",\n               \"short_name\" : \"388199\",\n               \"types\"
+        : [ \"postal_code\" ]\n            }\n         ],\n         \"formatted_address\"
+        : \"10 Lorong 27 Geylang, Singapore 388199\",\n         \"geometry\" : {\n
+        \           \"location\" : {\n               \"lat\" : 1.3146203,\n               \"lng\"
+        : 103.8839036\n            },\n            \"location_type\" : \"ROOFTOP\",\n
+        \           \"viewport\" : {\n               \"northeast\" : {\n                  \"lat\"
+        : 1.315969280291502,\n                  \"lng\" : 103.8852525802915\n               },\n
+        \              \"southwest\" : {\n                  \"lat\" : 1.313271319708498,\n
+        \                 \"lng\" : 103.8825546197085\n               }\n            }\n
+        \        },\n         \"partial_match\" : true,\n         \"types\" : [ \"street_address\"
+        ]\n      }\n   ],\n   \"status\" : \"OK\"\n}\n"
+    http_version: 
+  recorded_at: Wed, 30 Oct 2013 05:50:35 GMT
+- request:
+    method: get
+    uri: http://maps.googleapis.com/maps/api/geocode/json?address=6001%20Beach%20Road%20%20%20%20Singapore%20%20199589%20SG&language=en&sensor=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Wed, 30 Oct 2013 05:50:43 GMT
+      Expires:
+      - Thu, 31 Oct 2013 05:50:43 GMT
+      Cache-Control:
+      - public, max-age=86400
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alternate-Protocol:
+      - 80:quic
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: US-ASCII
+      string: ! "{\n   \"results\" : [\n      {\n         \"address_components\" :
+        [\n            {\n               \"long_name\" : \"6001\",\n               \"short_name\"
+        : \"6001\",\n               \"types\" : [ \"street_number\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Beach Road\",\n               \"short_name\"
+        : \"Beach Rd\",\n               \"types\" : [ \"route\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Singapore\",\n               \"short_name\"
+        : \"Singapore\",\n               \"types\" : [ \"locality\", \"political\"
+        ]\n            },\n            {\n               \"long_name\" : \"Singapore\",\n
+        \              \"short_name\" : \"SG\",\n               \"types\" : [ \"country\",
+        \"political\" ]\n            },\n            {\n               \"long_name\"
+        : \"199589\",\n               \"short_name\" : \"199589\",\n               \"types\"
+        : [ \"postal_code\" ]\n            }\n         ],\n         \"formatted_address\"
+        : \"6001 Beach Road, Singapore 199589\",\n         \"geometry\" : {\n            \"location\"
+        : {\n               \"lat\" : 1.302128,\n               \"lng\" : 103.864082\n
+        \           },\n            \"location_type\" : \"ROOFTOP\",\n            \"viewport\"
+        : {\n               \"northeast\" : {\n                  \"lat\" : 1.303476980291502,\n
+        \                 \"lng\" : 103.8654309802915\n               },\n               \"southwest\"
+        : {\n                  \"lat\" : 1.300779019708498,\n                  \"lng\"
+        : 103.8627330197085\n               }\n            }\n         },\n         \"types\"
+        : [ \"street_address\" ]\n      }\n   ],\n   \"status\" : \"OK\"\n}\n"
+    http_version: 
+  recorded_at: Wed, 30 Oct 2013 05:50:36 GMT
+- request:
+    method: get
+    uri: http://maps.googleapis.com/maps/api/geocode/json?address=6001%20Beach%20Road%20%20%20%20Singapore%20%20199589%20SG&language=en&sensor=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Wed, 30 Oct 2013 05:50:43 GMT
+      Expires:
+      - Thu, 31 Oct 2013 05:50:43 GMT
+      Cache-Control:
+      - public, max-age=86400
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alternate-Protocol:
+      - 80:quic
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: US-ASCII
+      string: ! "{\n   \"results\" : [\n      {\n         \"address_components\" :
+        [\n            {\n               \"long_name\" : \"6001\",\n               \"short_name\"
+        : \"6001\",\n               \"types\" : [ \"street_number\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Beach Road\",\n               \"short_name\"
+        : \"Beach Rd\",\n               \"types\" : [ \"route\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Singapore\",\n               \"short_name\"
+        : \"Singapore\",\n               \"types\" : [ \"locality\", \"political\"
+        ]\n            },\n            {\n               \"long_name\" : \"Singapore\",\n
+        \              \"short_name\" : \"SG\",\n               \"types\" : [ \"country\",
+        \"political\" ]\n            },\n            {\n               \"long_name\"
+        : \"199589\",\n               \"short_name\" : \"199589\",\n               \"types\"
+        : [ \"postal_code\" ]\n            }\n         ],\n         \"formatted_address\"
+        : \"6001 Beach Road, Singapore 199589\",\n         \"geometry\" : {\n            \"location\"
+        : {\n               \"lat\" : 1.302128,\n               \"lng\" : 103.864082\n
+        \           },\n            \"location_type\" : \"ROOFTOP\",\n            \"viewport\"
+        : {\n               \"northeast\" : {\n                  \"lat\" : 1.303476980291502,\n
+        \                 \"lng\" : 103.8654309802915\n               },\n               \"southwest\"
+        : {\n                  \"lat\" : 1.300779019708498,\n                  \"lng\"
+        : 103.8627330197085\n               }\n            }\n         },\n         \"types\"
+        : [ \"street_address\" ]\n      }\n   ],\n   \"status\" : \"OK\"\n}\n"
+    http_version: 
+  recorded_at: Wed, 30 Oct 2013 05:50:36 GMT
+- request:
+    method: get
+    uri: http://maps.googleapis.com/maps/api/geocode/json?address=15%20Ghim%20Moh%20Road%20%2302-31%20%20%20Singapore%20%20270015%20SG&language=en&sensor=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Wed, 30 Oct 2013 05:50:43 GMT
+      Expires:
+      - Thu, 31 Oct 2013 05:50:43 GMT
+      Cache-Control:
+      - public, max-age=86400
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alternate-Protocol:
+      - 80:quic
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: US-ASCII
+      string: ! "{\n   \"results\" : [\n      {\n         \"address_components\" :
+        [\n            {\n               \"long_name\" : \"15\",\n               \"short_name\"
+        : \"15\",\n               \"types\" : [ \"street_number\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Ghim Moh Road\",\n               \"short_name\"
+        : \"Ghim Moh Rd\",\n               \"types\" : [ \"route\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Singapore\",\n               \"short_name\"
+        : \"Singapore\",\n               \"types\" : [ \"locality\", \"political\"
+        ]\n            },\n            {\n               \"long_name\" : \"Singapore\",\n
+        \              \"short_name\" : \"SG\",\n               \"types\" : [ \"country\",
+        \"political\" ]\n            },\n            {\n               \"long_name\"
+        : \"270015\",\n               \"short_name\" : \"270015\",\n               \"types\"
+        : [ \"postal_code\" ]\n            }\n         ],\n         \"formatted_address\"
+        : \"15 Ghim Moh Road, Singapore 270015\",\n         \"geometry\" : {\n            \"location\"
+        : {\n               \"lat\" : 1.309118,\n               \"lng\" : 103.788369\n
+        \           },\n            \"location_type\" : \"ROOFTOP\",\n            \"viewport\"
+        : {\n               \"northeast\" : {\n                  \"lat\" : 1.310466980291502,\n
+        \                 \"lng\" : 103.7897179802915\n               },\n               \"southwest\"
+        : {\n                  \"lat\" : 1.307769019708498,\n                  \"lng\"
+        : 103.7870200197085\n               }\n            }\n         },\n         \"partial_match\"
+        : true,\n         \"types\" : [ \"street_address\" ]\n      }\n   ],\n   \"status\"
+        : \"OK\"\n}\n"
+    http_version: 
+  recorded_at: Wed, 30 Oct 2013 05:50:36 GMT
+- request:
+    method: get
+    uri: http://maps.googleapis.com/maps/api/geocode/json?address=15%20Ghim%20Moh%20Road%20%2302-31%20%20%20Singapore%20%20270015%20SG&language=en&sensor=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Wed, 30 Oct 2013 05:50:43 GMT
+      Expires:
+      - Thu, 31 Oct 2013 05:50:43 GMT
+      Cache-Control:
+      - public, max-age=86400
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alternate-Protocol:
+      - 80:quic
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: US-ASCII
+      string: ! "{\n   \"results\" : [\n      {\n         \"address_components\" :
+        [\n            {\n               \"long_name\" : \"15\",\n               \"short_name\"
+        : \"15\",\n               \"types\" : [ \"street_number\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Ghim Moh Road\",\n               \"short_name\"
+        : \"Ghim Moh Rd\",\n               \"types\" : [ \"route\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Singapore\",\n               \"short_name\"
+        : \"Singapore\",\n               \"types\" : [ \"locality\", \"political\"
+        ]\n            },\n            {\n               \"long_name\" : \"Singapore\",\n
+        \              \"short_name\" : \"SG\",\n               \"types\" : [ \"country\",
+        \"political\" ]\n            },\n            {\n               \"long_name\"
+        : \"270015\",\n               \"short_name\" : \"270015\",\n               \"types\"
+        : [ \"postal_code\" ]\n            }\n         ],\n         \"formatted_address\"
+        : \"15 Ghim Moh Road, Singapore 270015\",\n         \"geometry\" : {\n            \"location\"
+        : {\n               \"lat\" : 1.309118,\n               \"lng\" : 103.788369\n
+        \           },\n            \"location_type\" : \"ROOFTOP\",\n            \"viewport\"
+        : {\n               \"northeast\" : {\n                  \"lat\" : 1.310466980291502,\n
+        \                 \"lng\" : 103.7897179802915\n               },\n               \"southwest\"
+        : {\n                  \"lat\" : 1.307769019708498,\n                  \"lng\"
+        : 103.7870200197085\n               }\n            }\n         },\n         \"partial_match\"
+        : true,\n         \"types\" : [ \"street_address\" ]\n      }\n   ],\n   \"status\"
+        : \"OK\"\n}\n"
+    http_version: 
+  recorded_at: Wed, 30 Oct 2013 05:50:36 GMT
+recorded_with: VCR 2.6.0

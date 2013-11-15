@@ -1,0 +1,73 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://maps.googleapis.com/maps/api/geocode/json?address=16%20West%20Church%20Street%20%20%20%20Fairport%20%2014450%20United%20States&language=en&sensor=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Wed, 30 Oct 2013 06:00:54 GMT
+      Expires:
+      - Thu, 31 Oct 2013 06:00:54 GMT
+      Cache-Control:
+      - public, max-age=86400
+      Access-Control-Allow-Origin:
+      - ! '*'
+      Server:
+      - mafe
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Frame-Options:
+      - SAMEORIGIN
+      Alternate-Protocol:
+      - 80:quic
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: US-ASCII
+      string: ! "{\n   \"results\" : [\n      {\n         \"address_components\" :
+        [\n            {\n               \"long_name\" : \"16\",\n               \"short_name\"
+        : \"16\",\n               \"types\" : [ \"street_number\" ]\n            },\n
+        \           {\n               \"long_name\" : \"West Church Street\",\n               \"short_name\"
+        : \"W Church St\",\n               \"types\" : [ \"route\" ]\n            },\n
+        \           {\n               \"long_name\" : \"Fairport\",\n               \"short_name\"
+        : \"Fairport\",\n               \"types\" : [ \"locality\", \"political\"
+        ]\n            },\n            {\n               \"long_name\" : \"Perinton\",\n
+        \              \"short_name\" : \"Perinton\",\n               \"types\" :
+        [ \"administrative_area_level_3\", \"political\" ]\n            },\n            {\n
+        \              \"long_name\" : \"Monroe\",\n               \"short_name\"
+        : \"Monroe\",\n               \"types\" : [ \"administrative_area_level_2\",
+        \"political\" ]\n            },\n            {\n               \"long_name\"
+        : \"New York\",\n               \"short_name\" : \"NY\",\n               \"types\"
+        : [ \"administrative_area_level_1\", \"political\" ]\n            },\n            {\n
+        \              \"long_name\" : \"United States\",\n               \"short_name\"
+        : \"US\",\n               \"types\" : [ \"country\", \"political\" ]\n            },\n
+        \           {\n               \"long_name\" : \"14450\",\n               \"short_name\"
+        : \"14450\",\n               \"types\" : [ \"postal_code\" ]\n            }\n
+        \        ],\n         \"formatted_address\" : \"16 West Church Street, Fairport,
+        NY 14450, USA\",\n         \"geometry\" : {\n            \"location\" : {\n
+        \              \"lat\" : 43.098901,\n               \"lng\" : -77.44318799999999\n
+        \           },\n            \"location_type\" : \"ROOFTOP\",\n            \"viewport\"
+        : {\n               \"northeast\" : {\n                  \"lat\" : 43.10024998029149,\n
+        \                 \"lng\" : -77.44183901970848\n               },\n               \"southwest\"
+        : {\n                  \"lat\" : 43.09755201970849,\n                  \"lng\"
+        : -77.44453698029149\n               }\n            }\n         },\n         \"types\"
+        : [ \"street_address\" ]\n      }\n   ],\n   \"status\" : \"OK\"\n}\n"
+    http_version: 
+  recorded_at: Wed, 30 Oct 2013 06:00:47 GMT
+recorded_with: VCR 2.6.0

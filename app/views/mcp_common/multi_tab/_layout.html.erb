@@ -1,0 +1,11 @@
+
+<div class="tabbable"> <!-- Only required for left/right tabs -->
+  <ul class="nav nav-tabs multi-tab-tabs">
+    <%= render partial: "mcp_common/multi_tab/tabs", collection: list, as: :list %>
+  </ul>
+
+  <div class="tab-content">
+    <%= render partial: "mcp_common/multi_tab/tables", collection: list, as: :list %>
+  </div>
+</div>
+

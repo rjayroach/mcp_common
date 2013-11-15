@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= content_for?(:title) ? yield(:title) : "" %></title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Include the application's JS and CSS -->
+    <%= stylesheet_link_tag    "application", :media => "all" %>
+    <%= javascript_include_tag "application" %>
+    <!-- Include common's JS and CSS -->
+    <%= stylesheet_link_tag    "mcp_common/application", :media => "all" %>
+    <%= javascript_include_tag "mcp_common/application" %>
+    <!-- Include the controller's engine's JS and CSS -->
+    <% APPLICATION_ENGINES.each do |engine| %>
+      <% if (!engine[:name].eql? 'mcp_common' and engine[:name].eql? request.params[:controller].split('/')[0]) %>
+        <%= stylesheet_link_tag    "#{engine[:name]}/application", :media => "all" %>
+        <%= javascript_include_tag "#{engine[:name]}/application" %>
+      <% end %>
+    <% end %>
+    <%= csrf_meta_tags %>
+    <%= yield(:head) %>
+  </head>
+  <body>
+
+    <header class="navbar navbar-fixed-top">
+      <nav class="navbar-inner">
+        <div class="container">
+          <%= render 'layouts/mcp_common/navigation_manager' %>
+        </div>
+      </nav>
+      <!--
+      <nav class="navbar-inner">
+        <div class="container">
+               <%= render "context_menu" %>
+        </div>
+      </nav>
+      -->
+    </header>
+    <div id="main" role="main">
+      <div class="container">
+        <div class="content">
+          <!--
+          <div class="row">
+            <div class="span12">
+              hi
+               <%# render "context_menu" %>
+            </div>
+           </div>
+           -->
+           <div class="row">
+            <div class="span12">
+              <%= render 'layouts/mcp_common/messages' %>
+              <%= content_for?(:content) ? yield(:content) : yield %>
+              <%#= yield %>
+            </div>
+          </div>
+          <footer>
+          </footer>
+        </div>
+      </div> <!--! end of .container -->
+    </div> <!--! end of #main -->
+  </body>
+</html>
+
