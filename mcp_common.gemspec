@@ -22,12 +22,12 @@ Gem::Specification.new do |s|
   s.name        = "mcp_common"
   s.version     = McpCommon::VERSION
   s.authors     = ["Robert Roach"]
-  s.email       = ["robert.roach@maxcole.com"]
-  s.homepage    = "http://www.maxcole.com"
+  s.email       = ["rjayroach@gmail.com"]
+  s.homepage    = "http://rjayroach.github.io"
   s.summary     = "Provides functionality required by other 'Mcp' gems"
-  s.description = "Description of McpCommon."
+  s.description = "Common bootstrap layout and helpers, location model with geolocation"
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["LICENSE", "Rakefile", "README.md"]
 
 #=begin # Rails 3
   s.add_dependency "bootstrap-sass", "= 2.3.2.2"
