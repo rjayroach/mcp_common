@@ -30,7 +30,7 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
 
 #=begin # Rails 3
-  s.add_dependency "bootstrap-sass", ">= 2.3.0.1"
+  s.add_dependency "bootstrap-sass", "= 2.3.2.2"
   s.add_dependency "chosen-rails" #, "~> 0.2.0"
   s.add_dependency "draper"
   s.add_dependency "geocoder" #, "~> 0.2.0"
