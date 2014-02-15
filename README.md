@@ -23,23 +23,23 @@ Any other engines in the application need to NOT import these libraries
 Common will include all other gem's javascripts, including dataTables, chosen, etc.
 
 
-# Features
+## Features
 
 
-## Mcp Initializer
+### Mcp Initializer
 
 In config/initalizers is mcp.rb which parses Rails in-memory list of installed 'mcp' engines for the application and installs creates a static variable containing a reference to each 'mcp' engine
 
 The initializer recognizes 'mcp' engines by checking if the respond_to? :mcp which they will do when they have that method defined in lib/<engine name>.rb
 
 
-## API Controller
+### API Controller
 
 includes two files: lib/mcp_common/api_constraints.rb and controllers/mcp_common/api/api_controller.rb
 these files are loaded on startup from lib/mcp_common.rb
 
 
-## Application Layout, Menus and Notification
+### Application Layout, Menus and Notification
 
 The main app's ApplicationController should delegate the layout to McpCommon:
 
@@ -52,7 +52,7 @@ McpCommon's layout:
 - renders _messages.html.erb which displays notifications to user so the form doesn't have to
 
 
-## MultiTab
+### MultiTab
 
 Renders one or more Twitter Bootstrap horizontal tab(s) and corresponding <div> for rendering a dataTable as content onto an html <table>
 
