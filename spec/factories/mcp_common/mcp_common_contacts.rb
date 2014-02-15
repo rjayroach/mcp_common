@@ -4,6 +4,7 @@ module McpCommon
  FactoryGirl.define do
    factory :mcp_common_contact, class: Contact do
      value { Faker::PhoneNumber.phone_number }
+     association :contactable, factory: :mcp_common_person
 
      # TODO: factories that want to create Contacts should include creating this type of record as a trait and create this in an after(:create) block
 #     contactable_id 1
