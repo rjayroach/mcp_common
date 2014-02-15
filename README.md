@@ -10,7 +10,8 @@ For the purpose of this document, an "application" means a full rails applicatio
 
 ## Gems
 
-Common functionality is provided by many gems included in McpCommon, however, these gems also need to be included in any application. The following gems are required to be included in the application's Gemfile:
+Common functionality is provided by many gems included in McpCommon, however, these gems also need to be included in any application.
+The following gems are required to be included in the application's Gemfile:
 
 * bootstrap-saas
 
