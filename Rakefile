@@ -2,8 +2,8 @@
 
 begin
   require 'bundler/setup'
-require 'geminabox/rake'
-Geminabox::Rake.install dir: '.', host: 'http://user:abuser@gems.maxcole.com/' #, dir: './client', 
+  require 'geminabox/rake'
+  Geminabox::Rake.install dir: '.', host: ENV['GEM_SERVER_MAXCOLE']
 rescue LoadError
   puts 'You must `gem install bundler` and `bundle install` to run rake tasks'
 end
