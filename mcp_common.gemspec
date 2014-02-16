@@ -58,6 +58,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency "commands"
   s.add_development_dependency "vcr"
   s.add_development_dependency "webmock"
+  s.add_development_dependency "geminabox-rake"
 end
 
 
