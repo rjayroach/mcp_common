@@ -3,7 +3,7 @@
 begin
   require 'bundler/setup'
   require 'geminabox/rake'
-  Geminabox::Rake.install dir: '.', host: ENV['GEM_SERVER_MAXCOLE']
+  Geminabox::Rake.install namespace: 'gib', dir: '.', host: ENV['GEM_SERVER_MAXCOLE']
 rescue LoadError
   puts 'You must `gem install bundler` and `bundle install` to run rake tasks'
 end
