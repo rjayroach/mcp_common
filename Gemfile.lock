@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    mcp_common (0.14.6)
+    mcp_common (0.15.0)
       bootstrap-sass (= 2.3.2.2)
       chosen-rails
       draper
