@@ -1,4 +1,12 @@
 
+# can do this after deciding how config files will be deployed to the application
+# for now it is just assumed that it is fan_club
+#APPLICATION_ENGINES = [{name: ENV['APPLICATION_ENGINE']}]
+APPLICATION_ENGINES = [{name: 'fan_club'}]
+dir_p = "#{Rails.root}/public/cache/facebook"
+FileUtils.mkdir_p dir_p unless File.directory?(dir_p)
+
+=begin
 APPLICATION_ENGINES = []
 
 Rails.application.railties.engines.collect do |engine|
@@ -43,4 +51,4 @@ else
 
   APPLICATION_CONFIG = []
 end
-
+=end
