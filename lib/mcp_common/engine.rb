@@ -2,10 +2,10 @@
 # 3rd party libraries
 require 'bootstrap-sass'
 require 'jquery-datatables-rails'
-require 'rabl'
+#require 'rabl'
 require 'ransack'
 require 'simple_form'
-require 'strong_parameters'
+#require 'strong_parameters'
 require 'will_paginate'
 require 'whenever'
 require 'chosen-rails'

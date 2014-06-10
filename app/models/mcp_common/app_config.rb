@@ -22,7 +22,7 @@ module McpCommon
     # See: http://stackoverflow.com/questions/1834159/overriding-a-rails-default-scope
     # use model.unscoped
     #
-    default_scope where(environment: Rails.env)
+    default_scope { where(environment: Rails.env) }
 
     before_validation :set_environment
 
