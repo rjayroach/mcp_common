@@ -26,15 +26,10 @@ group :assets do
   gem "uglifier"
   gem "jquery-ui-rails"
   gem "therubyracer", :platform => :ruby
-gem 'ember-rails'
-#gem 'angularjs-rails'
-#gem 'angular-ui-rails'
 end
 
 group :test do
   gem "timecop"
-  gem "spork"
-  gem "guard-spork"
   gem "guard-rspec"
   gem "rb-inotify", "= 0.8.8"
   gem "simplecov"

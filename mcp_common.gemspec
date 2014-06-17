@@ -29,7 +29,6 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["LICENSE", "Rakefile", "README.md"]
 
-#=begin # Rails 3
   s.add_dependency "bootstrap-sass", "= 2.3.2.2"
   s.add_dependency "chosen-rails" #, "~> 0.2.0"
   s.add_dependency "draper"
@@ -45,12 +44,7 @@ Gem::Specification.new do |s|
   s.add_dependency "strong_parameters", "~> 0.2.0"
   s.add_dependency "sucker_punch", "~> 1.0.0"
   s.add_dependency "whenever" #, "~> 0.2.0"
-  s.add_dependency "draper"
-#=end # Rails 3
 
-=begin # Rails 4
-  s.add_dependency "rails", "~> 4.0.0"
-=end # Rails 4
 
   # s.add_dependency "jquery-rails"
 
